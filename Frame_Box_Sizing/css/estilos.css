@@ -1,0 +1,132 @@
+Body{
+  width: 96%;
+  margin-left: 2%;
+  background: black;
+}
+#encabezado{
+  width: 100%;
+  background: green;
+  margin-top: 0;
+  height: 10vh;
+}
+#encabezado h1{
+  color: white;
+  text-align: center;
+}
+
+.contenido{
+  width: 100%;
+  border: 1px, solid, black;
+  background: yellow;
+}
+
+.contenedor{
+  width: 80%;
+  margin-left: 10%;
+  background: gray;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+}
+
+.contenedor.filas{
+  display: flex;
+  flex-direction: row;
+}
+
+.recuadros{
+  display: flex;
+  flex-direction: row;
+}
+
+.recuadro1,.recuadro2,.recuadro3 {
+  background: blue;
+  width: 33%;
+  border: 1px solid black;
+}
+
+.recuadro4,.recuadro5,.recuadro6 {
+  background: green;
+  width: 33%;
+  border: 1px solid black;
+}
+
+.recuadro7,.recuadro8,.recuadro9 {
+  background: brown;
+  width: 33%;
+  border: 1px solid black;
+}
+
+.interior1{
+  box-sizing: content-box;
+  width: 60%;
+  margin-left: 20%;
+  border: 5px solid red;
+  background: yellow;
+}
+.interior2{
+  width: 70%;
+  margin-left: 15%;
+  border: 1px solid green;
+}
+.interior3{
+  width: 80%;
+  margin-left: 10%;
+  border: 1px solid gray;
+}
+
+.interior4{
+  width: 80%;
+  border: 1px solid red;
+}
+.interior5{
+  width: 80%;
+  border: 1px solid green;
+}
+.interior6{
+  width: 80%;
+  border: 1px solid gray;
+}
+
+.interior7{
+  width: 80%;
+  border: 1px solid red;
+}
+.interior8{
+  width: 80%;
+  border: 1px solid green;
+}
+.interior9{
+  width: 80%;
+  border: 1px solid gray;
+}
+
+.imagen1{
+  width: 90%;
+  padding: 5%;
+}
+.imagen2{
+  width: 100%;
+}
+.imagen3{
+  width: 100%;
+}
+
+.imagen4{
+  width: 100%;
+}
+.imagen5{
+  width: 45%;
+}
+.imagen6{
+  width: 75%;
+}
+.imagen7{
+  width: 100%;
+}
+.imagen8{
+  width: 45%;
+}
+.imagen9{
+  width: 75%;
+}

@@ -1,0 +1,17 @@
+*{
+  box-sizing: content-box;
+}
+
+#contenedor {
+  width: 90%;
+  padding: 20px;
+  border: 1px solid black;
+}
+
+#cuadrado {
+  width: 50%;
+  height: 300px;
+  padding: 20px;
+  background-color: yellow;
+  border: 5px solid black;
+}
