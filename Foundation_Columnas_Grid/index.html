@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width user-scalable=no">
+    <link rel="stylesheet" href="css/foundation.min.css">
+    <link rel="stylesheet" href="css/app.css">
+    <title>Column Grid</title>
+  </head>
+  <body>
+    <div class="row">
+      <div class="column large-1">1 col</div>
+      <div class="column large-11">11 Columnas</div>
+    </div>
+    <div class="row">
+      <div class="column large-1">1 columna</div>
+      <div class="column large-9 large-offset-2">10 columnas, Offset 2</div>
+    </div>
+    <div class="row">
+      <div class="column large-1">1 columna</div>
+      <div class="column large-7 large-offset-4">7 columnas, Offset 4</div>
+    </div>
+    <div class="row">
+      <div class="column large-1">1 columna</div>
+      <div class="column large-3 large-offset-8">3 columnas, Offset 8</div>
+    </div>
+    <div class="row">
+      <div class="column large-3">1 columna</div>
+      <div class="column large-3">3 columnas, Offset 8</div>
+      <div class="column large-3 end">Columna desplazada</div>
+    <!-- En la ultima fila se definieron 3 columnas cuya suma es menor que 12, entonces la tercera columna
+         se desplaza hacia el final de la pantalla. Si queremos que la ultima columna vaya inmediatamente despues
+         de la anterior columna, se debe incluir la clase END -->
+    </div>
+    <p></p>
+    <div class="row medium-uncollapse large-collapse">
+      <div class="column medium-3 large-3">Bloque 1</div>
+      <div class="column medium-3 large-3">Bloque 2</div>
+      <div class="column medium-3 large-3 end">Bloque 3</div>
+    </div>
+    <!-- Bloque centrado y descentrado -->
+    <div class="row">
+      <div class="column medium-3 medium-centered large-uncentered">Bloque 1</div>
+    </div>
+    <!-- Desplazamiento de columnas hacia la derecha y hacia la izquierda -->
+    <div class="row">
+      <div class="column small-8 small-push-4">Push 4</div>
+      <div class="column small-4 small-pull-8">Pull 8</div>
+    </div>
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
