@@ -1,0 +1,13 @@
+.step {
+  display: inline-block;
+  line-height: 1;
+  width: 10%;
+}
+
+.size-24{
+  font-size: 20px;
+}
+
+img{
+  max-height: 129px;
+}

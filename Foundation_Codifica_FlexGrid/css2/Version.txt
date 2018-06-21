@@ -1,0 +1,2 @@
+Version de Foundation tomada de la carpeta FLEXGRID.
+Esta version reconoce apropiadamente los comando align-right y expanded.
