@@ -1,0 +1,38 @@
+.encabezado{
+  min-height: 4rem;
+}
+
+.grupos{
+  min-height: 50rem;
+  border: 1px solid blue;
+}
+
+.principal{
+  min-height: 50rem;
+  border: 1px solid red;
+}
+
+.publicaciones{
+  min-height: 50rem;
+  border: 1px solid gray;
+}
+
+.noticias{
+  min-height: 50rem;
+  border: 1px solid brown;
+}
+
+.cchat{
+  min-height: 50rem;
+  border: 1px solid blue;
+}
+
+.recientes{
+  min-height: 25rem;
+  border: 1px solid red;
+}
+
+.bchat{
+  min-height: 25rem;
+  border: 1px solid green;
+}
