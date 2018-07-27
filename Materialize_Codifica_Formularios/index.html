@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+    <!--Importar la fuente de los íconos de Google-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Importar la hojas de estilos de materialize css-->
+    <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <link href="css/customColors.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <link href="css/estilos.css" type="text/css" rel="stylesheet" media="screen,projection">
+    <title>Mi MultiPortal Materialize CSS</title>
+  </head>
+  <body>
+    <div class="row">
+      <div class="col s12 deep-orange accent-4 encabezado">
+        <div class="row">
+          <div class="col s12 m8 l5">
+            <img src="img/logo.png" alt="ShareUrCode" class="logo"/>
+            <div class="input-field  captura-buscar">
+              <input type="text" placeholder="Buscar ...">
+              <i class="material-icons prefix">search</i>
+            </div>
+          </div>
+          <div class="col m4 l4 offset-l3 hide-on-small-only barra-botones">
+            <a class="btn-floating btn-medium cyan accent-2 waves-effect" href="#"><i class="material-icons">access_alarm</i></a>
+            <a class="btn-floating btn-medium cyan accent-2 waves-effect" href="#"><i class="material-icons">account_box</i></a>
+            <a class="btn-floating btn-medium cyan accent-2" href="#"><i class="material-icons">add_box</i></a>
+          </div>
+        </div>
+
+      </div>
+<!-- Columna para los grupos
+      Collection con atributo avatar -->
+      <div class="col s2 m2 l2 blue-grey lighten-5 black-text grupos push-s10">
+        <div class="collection">
+          <a class="collection-item avatar">
+            <img src="img/jsLogo.png" class="circle">
+            <span class="title hide-on-med-and-down">Javascript</span>
+            <p class="hide-on-med-and-down">150 Miembros</p>
+          </a>
+          <a class="collection-item avatar">
+            <img src="img/angularLogo.png" class="circle">
+            <span class="title hide-on-med-and-down">Angular</span>
+            <p class="hide-on-med-and-down">80 Miembros</p>
+          </a>
+          <a class="collection-item avatar">
+            <img src="img/nodeLogo.png" class="circle">
+            <span class="title hide-on-med-and-down">Node</span>
+            <p class="hide-on-med-and-down">500 Miembros</p>
+          </a>
+        </div>
+      </div>
+<!-- Columna para publicaciones -->
+      <div class="col s10 m7 l7 green lighten-4 principal pull-s2 z-depth-2">
+        <div class="row">
+          <div class="col s12 m12 l8 lime lighten-3 publicaciones">
+            <div class="card light-green lighten-3 nueva-publicacion">
+              <div class="card-content">
+                <h6>Escribe una nueva publicación</h6>
+                <form>
+                    <textarea id="captura-texto"></textarea>
+                    <a href="#" class="btn-floating btn-small cyan accent-2 waves-effect " >
+                      <i class="material-icons">code</i>
+                    </a>
+                    <a href="#" class="btn-floating btn-small cyan accent-2 waves-effect">
+                      <i class="material-icons">edit</i>
+                    </a>
+                    <a href="#" class="btn-floating btn-small cyan accent-2 waves-effect">
+                      <i class="material-icons">backup</i>
+                    </a>
+                    <button class="btn btn-small cyan accent-2 waves-effect right hide-on-small-only" type="submit" name="button">
+                      <i class="material-icons">send</i></button>
+                    <button class="btn-floating btn-small cyan accent-2 waves-effect right hide-on-med-and-up" type="submit" name="button">
+                      <i class="material-icons">send</i></button>
+                </form>
+              </div>
+            </div>
+            <div class="card deep-orange lighten-3 publicacion-1">
+              <div class="card-reveal grey white-text">
+                <span class="card-title">Uso de Flexbox <i class="material-icons right">close</i> </span>
+                <p>
+                  Este texto se encarga de colocar unos textos de colores en un contenedor padre usando FlexBox
+                </p>
+              </div>
+              <div class="card-content white-text">
+                <span class="card-title activator">Carlos Guzman:</span>
+                <p>Les deseo compartir el siguiente video</p>
+              </div>
+              <div class="card-image">
+                <span class="card-title">Video del uso de Flexbox</span>
+                <video src="video/vid1.mov" class="responsive-video media-element" controls autoplay></video>
+              </div>
+            </div>
+            <div class="card amber lighten-2 publicacion-2">
+              <div class="card-content white-text">
+                <span class="card-title activator">CguzmanS:</span>
+                <p>Tengo una inqiietud sobre FlexBox</p>
+                <blockquote>
+                  Esta es una prueba de cita desde materialize
+                </blockquote>
+              </div>
+              <div class="card-reveal grey">
+                <span class="card-title">Duda sobre Materialize CSS <i class="material-icons right">close</i> </span>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col l3 red lighten-4 offset-l1 hide-on-med-and-down noticias">
+            <div class="cyan lighten-2 ultimas-noticias">
+              <h5 class="center-align">Ultimas Noticias</h5>
+              <div>
+                <p class="truncate">Lanzamiento del mueble número 1</p>
+                <img src="img/1.jpg" class="responsive-img">
+              </div>
+              <div>
+                <p class="truncate">Bienvenidos al lanzamiento 2</p>
+                <img src="img/2.jpg" class="responsive-img">
+              </div>
+              <div>
+                <p class="truncate">Estamos invitando a la venta de Garaje</p>
+                <img src="img/3.jpg" class="responsive-img">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+<!-- Columna para activides recientes y Chat -->
+      <div class="col m3 l3  hide-on-small-only cchat">
+        <div class="row">
+<!-- Bloque para actividades recientes -->
+          <div class="col s12 blue-grey  white-text bloque-recientes">
+            <ul class="collection with-header">
+              <li class="collection-header blue-grey"><h5>Actividades Recientes</h5></li>
+              <li class="collection-item avatar blue-grey">
+                <i class="material-icons circle blue darken-1">ac_unit</i>
+                <span class="title">Carlos Guzman</span>
+                <p>Ha contestado tu pregunta</p>
+              </li>
+              <li class="collection-item avatar blue-grey">
+                <i class="material-icons circle green accent-3">account_balance</i>
+                <span class="title">Grupo de Arquitectos</span>
+                <p>Ha sido aceptada tu membresia</p>
+              </li>
+              <li class="collection-item avatar blue-grey">
+                <i class="material-icons circle green accent-3">account_balance</i>
+                <span class="title">Grupo de Arquitectos</span>
+                <p>Ha sido aceptada tu membresia</p>
+              </li>
+              <li class="collection-item avatar blue-grey">
+                <i class="material-icons circle green accent-3">account_balance</i>
+                <span class="title">Grupo de Arquitectos</span>
+                <p>Ha sido aceptada tu membresia</p>
+              </li>
+              <li class="collection-item avatar blue-grey">
+                <i class="material-icons circle green accent-3">account_balance</i>
+                <span class="title">Grupo de Arquitectos</span>
+                <p>Ha sido aceptada tu membresia</p>
+              </li>
+            </ul>
+          </div>
+
+<!-- Bloque para el chat -->
+          <div class="col s12 grey lighten-1 black-text bloque-chat">
+            <ul class="collection with-header">
+              <li class="collection-header grey"><h4>Chat</h4></li>
+              <li class="collection-item grey">
+                <div class="chip grey lighten-1">
+                  <img src="img/hombre.png">Carlos
+                </div>
+              </li>
+              <li class="collection-item grey">
+                <div class="chip grey lighten-1">
+                  <img src="img/mujer.png">Elizabeth
+                </div>
+              </li>
+              <li class="collection-item grey">
+                <div class="chip grey lighten-1">
+                  <img src="img/hombre.png">Carlos
+                </div>
+              </li>
+              <li class="collection-item grey">
+                <div class="chip grey lighten-1">
+                  <img src="img/mujer.png">Elizabeth
+                </div>
+              </li>
+              <li class="collection-item grey">
+                <div class="chip grey lighten-1">
+                  <img src="img/hombre.png">Carlos
+                </div>
+              </li>
+              <li class="collection-item grey">
+                <div class="chip grey lighten-1">
+                  <img src="img/mujer.png">Elizabeth
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="fixed-action-btn boton-fijo">
+        <a class="btn-floating btn-small orange darken-4"  href="#"><i class="material-icons">build</i></a>
+        <ul>
+          <li>
+            <a class="btn-floating btn-small yellow" href="#">
+              <i class="material-icons">call_end</i>
+            </a>
+          </li>
+          <li>
+            <a class="btn-floating btn-small red" href="#">
+              <i class="material-icons">cloud_off</i>
+            </a>
+          </li>
+          <li>
+            <a class="btn-floating btn-small blue" href="#">
+              <i class="material-icons">content_cut</i>
+            </a>
+          </li>
+          <li>
+            <a class="btn-floating btn-small green" href="#">
+              <i class="material-icons">directions_bus</i>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+  </body>
+</html>
