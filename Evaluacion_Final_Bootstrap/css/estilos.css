@@ -1,0 +1,159 @@
+body{
+  background-color: brown;
+}
+
+.cabecera{
+  background-color: white;
+}
+
+.contenido{
+  background-color: white;
+}
+
+.navegacion{
+  background-color: rgba(8, 45, 94, 0.95);
+}
+/* Clase para darle estilos a la imagen del logo */
+.logo-img{
+  width: 80%;
+}
+
+/* Clase para darle estilos a la barra de navegacion */
+.navbar-inverse {
+  background-color: rgba(8, 45, 94, 0.95);
+  min-height: 10%;
+  border: none;
+}
+/* Clase para darle estilo a los logos de las redes sociales */
+.redes-sociales{
+  margin-top: 20px;
+}
+
+.img-social{
+  margin-top: 30px;
+  width: 35px;
+  height: 35px;
+}
+
+li{
+  width: 13.9vw;
+  text-align: center;
+}
+
+li a:hover{
+  background-color: green !important;
+}
+
+.columna-buscar{
+  min-height: 500px;
+}
+
+.columna-imagen{
+  min-height: 280px;
+}
+
+.columna-texto{
+  min-height: 50px;
+}
+
+.foto-artista{
+  width: 100%;
+  min-height: 300px;
+}
+
+.foto-festival{
+  width: 90%;
+}
+
+.comentario{
+  border-radius: 10px;
+}
+
+textarea{
+  box-sizing: border-box;
+  width: 100%;
+}
+
+/* -- ANTIGUOS -- */
+/* Clase para darle estilos al body */
+.cinema-body{
+  background: url(../img/cinema_body.jfif);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  }
+
+
+
+/* Clase para darle estilos al contenedor principal */
+.container-fluid {
+  margin-top: 64px;
+}
+
+/* Clase para darle estilos al jumbotron */
+.jumbotron{
+  background: url(../img/cartelera.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 500px;
+  margin-bottom: 0px;
+  border-radius: 0px !important;
+}
+/* Clase para darle estilo a la imagen dentro de Jumbotron */
+.jumbotron-img{
+  margin-top: 20px;
+  width: 20%
+}
+
+/* Clase para darle estilo al texto dentro de Jumbotron */
+.jumbotron-text{
+  font-size: 16px;
+  color: white;
+  margin-top: 20px;
+}
+
+
+/* Clase para ocultar componentes HTML*/
+@media (max-width:420px){
+  .columna-buscar{
+    display: none;
+  }
+
+  h2 {
+    font-size: 22px;
+  }
+
+  .titulo-text {
+    font-size: 15px;
+  }
+  .movies-row {
+    padding-left: 0px;
+    padding-right: 0px;
+    min-height: 250px;;
+  }
+  .container-fluid{
+    margin-top: 60px;
+  }
+
+  .movies-column {
+    min-height: 230px;
+  }
+
+  .jumbotron {
+    min-height: 350px;
+  }
+
+  .jumbotron-img {
+    width: 150px;
+    margin-top: 20px;
+  }
+
+  .img-movies {
+    height: 133px;
+    padding: 6px;
+    margin-top: 22px;
+  }
+}
