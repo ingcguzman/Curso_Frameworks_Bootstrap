@@ -1,0 +1,144 @@
+/* -- Fijar imagen en el fondo de los contenidos */
+.contenido{
+  background-image: url("../img/alpes.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 520px;
+}
+
+.encabezado{
+  background-color: #1592FA;
+  background-attachment: fixed;
+  min-height: 5rem;
+}
+
+#titulo-encabezado{
+  color: white;
+  font-style: italic;
+}
+
+.logo{
+  width: 43px;
+  margin-top: 0.5rem;
+  float: left;
+}
+
+.barra-botones{
+  margin-top: 1rem;
+}
+
+.redes{
+  width: 50px;
+  min-height: 60px;
+  border-radius: 10px;
+}
+
+.img1{
+  width: 100%;
+  min-height: 20rem;
+}
+
+.img2{
+  width: 100%;
+  min-height: 50rem;
+}
+
+.img3{
+  width: 100%;
+  min-height: 15rem;
+}
+
+/* -- Definición de la altura de las columnas para mostrar la galeria de imagenes */
+.columna1{
+  min-height: 40rem;
+}
+
+.columna2{
+  min-height: 50rem;
+}
+
+.columna3{
+  min-height: 45rem;
+}
+
+.blog{
+  min-height: 30rem;
+}
+
+.perfil{
+  min-height: 23rem;
+}
+
+/* -- Definición del estilo para las columnas de las publicaciones --*/
+.articulo{
+  padding-top: 1%;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.articulo img{
+    margin-top: 2%;
+    margin-right: 2%;
+    margin-bottom: 1%;
+    float: left;
+    width: 400px;
+}
+
+/*-- Estilo para el perfil del autor del blog --*/
+.bloguero{
+  padding-top: 1%;
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+}
+
+.bloguero p{
+  font-size: 12px;
+  font-style: italic;
+}
+
+/*-- Estilo para la captura de los comentarios --*/
+.comentario{
+  color: white;
+  background-color: #1592FA;
+
+}
+
+.captura-nombre{
+  float: left;
+  margin-left: 1rem;
+  margin-top: 0.5rem;
+  width: 45%;
+}
+
+.captura-email{
+  float: left;
+  margin-left: 1rem;
+  margin-top: 0.5rem;
+  width: 45%;
+}
+
+.captura-comentario{
+  float: left;
+  margin-left: 1rem;
+  margin-top: 0.5rem;
+  width: 92%;
+}
+
+/* Ajuste de ancho del campo a capturar para pantallas pequeñas */
+@media (max-width: 600px){
+  .captura-nombre{
+    float: left;
+    margin-left: 1rem;
+    margin-top: 0.5rem;
+    width: 90%;
+  }
+
+  .captura-email{
+    float: left;
+    margin-left: 1rem;
+    margin-top: 0.5rem;
+    width: 90%;
+  }
+}
+
+/*-- Anteriores --*/
